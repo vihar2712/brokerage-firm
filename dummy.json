@@ -1,0 +1,168 @@
+[
+    {
+      "title": "Tech Innovations Inc.",
+      "logo": "https://example.com/tech_innovations_logo.png",
+      "amount": "$5,000,000",
+      "description": "Tech Innovations Inc. is a cutting-edge technology company specializing in artificial intelligence solutions for businesses. They have developed a revolutionary AI platform that streamlines processes and enhances efficiency across various industries.",
+      "terms_and_conditions": "Investors will receive preferred stock with a 5% dividend rate and 2x liquidation preference.",
+      "risk_factor": "The technology industry is highly competitive and subject to rapid changes. There is a risk of technological obsolescence or failure to gain market acceptance.",
+      "strengths": "Tech Innovations Inc. has a strong team of AI experts and a proven track record of successful implementations with several Fortune 500 companies.",
+      "guidelines": "Investors must undergo a thorough due diligence process and agree to a lock-up period of 12 months.",
+      "due_date": "2024-03-15"
+    },
+    {
+      "title": "Green Energy Corp",
+      "logo": "https://example.com/green_energy_logo.png",
+      "amount": "$10,000,000",
+      "description": "Green Energy Corp is a leading provider of renewable energy solutions, specializing in solar and wind power. They have a proven track record of delivering sustainable energy solutions to communities across the United States.",
+      "terms_and_conditions": "Investors will receive convertible notes with a 7% interest rate and a conversion discount of 20%.",
+      "risk_factor": "The renewable energy sector is subject to regulatory changes and fluctuations in government incentives. There is also inherent variability in energy production from solar and wind sources.",
+      "strengths": "Green Energy Corp has secured long-term contracts with utility companies and has access to prime locations for renewable energy projects.",
+      "guidelines": "Investors must commit a minimum of $1,000,000 and agree to a lock-up period of 24 months.",
+      "due_date": "2024-04-30"
+    },
+    {
+      "title": "HealthTech Solutions Ltd.",
+      "logo": "https://example.com/healthtech_solutions_logo.png",
+      "amount": "$8,000,000",
+      "description": "HealthTech Solutions Ltd. develops innovative healthcare technology solutions aimed at improving patient care and operational efficiency for healthcare providers. Their flagship product is a comprehensive electronic health records system designed to streamline workflows and enhance data security.",
+      "terms_and_conditions": "Investors will receive preferred stock with a 6% dividend rate and participation rights in future funding rounds.",
+      "risk_factor": "The healthcare technology industry is subject to stringent regulatory requirements and may face challenges related to data privacy and security.",
+      "strengths": "HealthTech Solutions Ltd. has partnerships with major healthcare institutions and a growing customer base.",
+      "guidelines": "Investors must complete a suitability questionnaire and undergo background checks. Minimum investment amount is $500,000.",
+      "due_date": "2024-05-31"
+    },
+    {
+      "title": "BioPharma Innovations",
+      "logo": "https://example.com/biopharma_innovations_logo.png",
+      "amount": "$15,000,000",
+      "description": "BioPharma Innovations is a biotechnology company focused on developing novel therapies for rare diseases. They have a robust pipeline of drug candidates targeting unmet medical needs.",
+      "terms_and_conditions": "Investors will receive convertible preferred stock with a 8% cumulative dividend rate and a conversion premium of 25%.",
+      "risk_factor": "The biopharmaceutical industry is highly regulated and subject to clinical trial failures and delays. Success of drug candidates depends on regulatory approvals and market acceptance.",
+      "strengths": "BioPharma Innovations has a seasoned management team with extensive experience in drug development and strong partnerships with leading research institutions.",
+      "guidelines": "Investors must be accredited and commit a minimum of $2,000,000. Lock-up period is 36 months.",
+      "due_date": "2024-06-30"
+    },
+    {
+      "title": "CleanTech Solutions",
+      "logo": "https://example.com/cleantech_solutions_logo.png",
+      "amount": "$12,000,000",
+      "description": "CleanTech Solutions specializes in providing sustainable water and waste management solutions for municipalities and industrial clients. Their innovative technologies help reduce environmental impact and improve resource efficiency.",
+      "terms_and_conditions": "Investors will receive common stock with a warrant coverage of 20% exercisable at a 30% premium to the current valuation.",
+      "risk_factor": "The environmental technology sector is influenced by government policies, market demand, and technological advancements. Projects may face implementation challenges and regulatory hurdles.",
+      "strengths": "CleanTech Solutions has a diverse portfolio of patented technologies and a track record of successful projects worldwide.",
+      "guidelines": "Investors must undergo a suitability assessment and commit a minimum of $500,000. Lock-up period is 18 months.",
+      "due_date": "2024-07-31"
+    },
+    {
+      "title": "Urban Mobility Ventures",
+      "logo": "https://example.com/urban_mobility_ventures_logo.png",
+      "amount": "$20,000,000",
+      "description": "Urban Mobility Ventures is a venture capital firm focused on investing in innovative transportation solutions. They seek to fund startups developing electric vehicles, autonomous driving technology, and urban air mobility.",
+      "terms_and_conditions": "Investors will receive preferred equity with participation rights in future financing rounds and a liquidation preference equal to 1x their investment.",
+      "risk_factor": "The urban mobility sector is evolving rapidly with technological advancements and regulatory changes. Investments may face market adoption risks and competition from established players.",
+      "strengths": "Urban Mobility Ventures has a network of industry experts and strategic partnerships with leading transportation companies.",
+      "guidelines": "Investors must be sophisticated investors and commit a minimum of $1,000,000. Lock-up period is 12 months.",
+      "due_date": "2024-08-31"
+    },
+    {
+      "title": "AI Robotics Solutions",
+      "logo": "https://example.com/ai_robotics_solutions_logo.png",
+      "amount": "$18,000,000",
+      "description": "AI Robotics Solutions is a pioneer in developing advanced robotics solutions for industrial automation and logistics. Their cutting-edge technology improves efficiency and safety in manufacturing and warehousing operations.",
+      "terms_and_conditions": "Investors will receive preferred stock with a 7% cumulative dividend rate and a conversion option at a 20% premium to the IPO price.",
+      "risk_factor": "The robotics industry is subject to rapid technological changes and may face challenges related to integration and scalability. Market demand may fluctuate with economic conditions.",
+      "strengths": "AI Robotics Solutions has a talented team of engineers and strong partnerships with leading manufacturers and e-commerce companies.",
+      "guidelines": "Investors must be accredited and commit a minimum of $1,000,000. Lock-up period is 24 months.",
+      "due_date": "2024-09-30"
+    },
+    {
+      "title": "AgriTech Innovations",
+      "logo": "https://example.com/agritech_innovations_logo.png",
+      "amount": "$8,500,000",
+      "description": "AgriTech Innovations develops smart farming solutions to optimize agricultural productivity and sustainability. Their technology includes precision agriculture tools, crop monitoring systems, and drone-based analytics.",
+      "terms_and_conditions": "Investors will receive convertible notes with a 6% interest rate and a conversion discount of 15%.",
+      "risk_factor": "The agriculture sector is influenced by weather patterns, market prices, and regulatory policies. Adoption of technology may vary among farmers and regions.",
+      "strengths": "AgriTech Innovations has partnerships with agricultural research institutions and a strong presence in key agricultural markets.",
+      "guidelines": "Investors must undergo a suitability assessment and commit a minimum of $500,000. Lock-up period is 18 months.",
+      "due_date": "2024-10-31"
+    },
+    {
+      "title": "SpaceTech Ventures",
+      "logo": "https://example.com/spacetech_ventures_logo.png",
+      "amount": "$25,000,000",
+      "description": "SpaceTech Ventures invests in startups developing innovative technologies for space exploration and satellite applications. Their portfolio includes companies working on launch systems, satellite communications, and space tourism.",
+      "terms_and_conditions": "Investors will receive preferred equity with anti-dilution protection and participation rights in future funding rounds.",
+      "risk_factor": "The space industry involves high upfront costs, technical challenges, and regulatory hurdles. Success depends on government contracts, market demand, and technology advancements.",
+      "strengths": "SpaceTech Ventures has a team of experts with deep knowledge of the space sector and strategic partnerships with space agencies and aerospace companies.",
+      "guidelines": "Investors must be accredited and commit a minimum of $2,000,000. Lock-up period is 36 months.",
+      "due_date": "2024-11-30"
+    },
+    {
+      "title": "Renewable Energy Solutions",
+      "logo": "https://example.com/renewable_energy_solutions_logo.png",
+      "amount": "$20,000,000",
+      "description": "Renewable Energy Solutions specializes in developing and operating solar, wind, and hydroelectric power projects. They focus on creating sustainable energy solutions to combat climate change and reduce carbon emissions.",
+      "terms_and_conditions": "Investors will receive preferred equity with a 6% dividend rate and participation rights in future projects.",
+      "risk_factor": "The renewable energy sector is influenced by government policies, market demand, and technological advancements. Projects may face permitting delays, resource availability constraints, and regulatory changes.",
+      "strengths": "Renewable Energy Solutions has a diversified portfolio of renewable energy projects and long-term power purchase agreements with utilities.",
+      "guidelines": "Investors must undergo a suitability assessment and commit a minimum of $1,000,000. Lock-up period is 24 months.",
+      "due_date": "2024-12-31"
+    },
+    {
+      "title": "FinTech Innovations",
+      "logo": "https://example.com/fintech_innovations_logo.png",
+      "amount": "$15,000,000",
+      "description": "FinTech Innovations develops innovative financial technology solutions for banking, payments, and wealth management. Their platforms leverage AI, blockchain, and data analytics to deliver seamless and secure financial services.",
+      "terms_and_conditions": "Investors will receive convertible preferred stock with a 7% cumulative dividend rate and a conversion option at a 25% premium to the IPO price.",
+      "risk_factor": "The financial technology industry is subject to regulatory changes, cybersecurity threats, and competition from traditional financial institutions and tech giants.",
+      "strengths": "FinTech Innovations has a talented team of technologists and financial experts and a track record of successful partnerships with banks and fintech startups.",
+      "guidelines": "Investors must be accredited and commit a minimum of $2,000,000. Lock-up period is 36 months.",
+      "due_date": "2025-01-31"
+    },
+    {
+      "title": "Artificial Intelligence Ventures",
+      "logo": "https://example.com/ai_ventures_logo.png",
+      "amount": "$25,000,000",
+      "description": "Artificial Intelligence Ventures invests in startups developing transformative AI technologies across various industries, including healthcare, finance, and e-commerce. They seek to fund companies with disruptive AI algorithms and scalable business models.",
+      "terms_and_conditions": "Investors will receive preferred equity with anti-dilution protection and participation rights in future funding rounds.",
+      "risk_factor": "The AI industry is rapidly evolving, with technological advancements and ethical considerations shaping its growth. Investments may face challenges related to data privacy, algorithm bias, and regulatory compliance.",
+      "strengths": "Artificial Intelligence Ventures has a network of AI experts, access to proprietary datasets, and strategic partnerships with research institutions.",
+      "guidelines": "Investors must be sophisticated investors and commit a minimum of $1,000,000. Lock-up period is 12 months.",
+      "due_date": "2025-02-28"
+    },
+    {
+      "title": "Smart City Solutions",
+      "logo": "https://example.com/smart_city_solutions_logo.png",
+      "amount": "$30,000,000",
+      "description": "Smart City Solutions develops integrated solutions for urban infrastructure management, including smart transportation, energy management, and public safety systems. Their technology aims to create sustainable and efficient cities of the future.",
+      "terms_and_conditions": "Investors will receive preferred equity with a 5% dividend rate and participation rights in future projects.",
+      "risk_factor": "The urban technology sector is subject to regulatory hurdles, technological complexities, and long implementation cycles. Success depends on government policies, public-private partnerships, and market demand.",
+      "strengths": "Smart City Solutions has a track record of successful projects and strategic partnerships with city governments and technology vendors.",
+      "guidelines": "Investors must undergo a suitability assessment and commit a minimum of $5,000,000. Lock-up period is 24 months.",
+      "due_date": "2025-03-31"
+    },
+    {
+      "title": "Clean Energy Ventures",
+      "logo": "https://example.com/clean_energy_ventures_logo.png",
+      "amount": "$25,000,000",
+      "description": "Clean Energy Ventures invests in early-stage clean energy startups focused on renewable energy, energy storage, and energy efficiency. They support innovative solutions that address climate change and promote sustainability.",
+      "terms_and_conditions": "Investors will receive preferred equity with anti-dilution protection and participation rights in future funding rounds.",
+      "risk_factor": "The clean energy sector is influenced by government policies, market dynamics, and technological advancements. Investments may face regulatory uncertainties, technological risks, and market competition.",
+      "strengths": "Clean Energy Ventures has a dedicated team with expertise in clean energy technologies, a strong network of industry partners, and a successful track record of investments.",
+      "guidelines": "Investors must be accredited and commit a minimum of $1,000,000. Lock-up period is 36 months.",
+      "due_date": "2025-04-30"
+    },
+    {
+      "title": "Virtual Reality Innovations",
+      "logo": "https://example.com/vr_innovations_logo.png",
+      "amount": "$20,000,000",
+      "description": "Virtual Reality Innovations is a pioneer in developing immersive virtual reality experiences for entertainment, education, and training. Their VR technology enhances engagement and learning outcomes across various industries.",
+      "terms_and_conditions": "Investors will receive convertible preferred stock with a 6% cumulative dividend rate and a conversion option at a 20% premium to the IPO price.",
+      "risk_factor": "The virtual reality industry is rapidly evolving, with technological advancements and changing consumer preferences. Success depends on content quality, hardware adoption, and market acceptance.",
+      "strengths": "Virtual Reality Innovations has a talented team of developers and creative professionals, strong partnerships with content creators and VR hardware manufacturers, and a diverse portfolio of applications.",
+      "guidelines": "Investors must be sophisticated investors and commit a minimum of $2,000,000. Lock-up period is 24 months.",
+      "due_date": "2025-05-31"
+    }
+  ]
+  
