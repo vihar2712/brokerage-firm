@@ -1,13 +1,24 @@
-import Body from "./components/Body";
-import Header from "./components/Header";
+import {RouterProvider, createBrowserRouter } from "react-router-dom";
+import Login from "./components/Login";
+import Home from "./components/Home";
 
 function App() {
-  return (
-    <div className="flex">
-      <Header />
-      <Body />
-    </div>
-  );
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Login />,
+    },
+    {
+      path: "/login",
+      element: <Login />,
+    },
+    {
+      path: "/home",
+      element: <Home />,
+    },
+  ]);
+
+  return <RouterProvider router={router} />;
 }
 
 export default App;
