@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { DUMMY_DATA } from "../utils/constants";
+import { BG_IMAGE_URL, DUMMY_DATA } from "../utils/constants";
 import FullCard from "./FullCard";
 import Card from "./Card";
 import Header from "./Header";
@@ -52,9 +52,13 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <div className="flex ">
-        <div className="border-r-2 border-gray-200 py-14 px-6 mx-[250px] ">
-          <h1 className="text-3xl mb-4">Welcome, {userInfo?.displayName} </h1>
+      <img
+        src={BG_IMAGE_URL}
+        className="fixed top-0 left-0 w-screen h-screen -z-10"
+      />
+      <div className="flex">
+        <div className="py-14 px-6 mx-[250px] ">
+          <h1 className="text-3xl mb-4 mx-2 bg-white p-2 text-center rounded-md">Welcome, {userInfo?.displayName} </h1>
           {cardList.map((card, index) => (
             <Card
               key={card.title}

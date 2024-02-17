@@ -8,8 +8,8 @@ const Card = ({ card, index, handleClick, bgColor }) => {
     <div
       key={card.title}
       className={
-        "rounded-md p-5 m-2 border-gray-200 border-2 hover:bg-gray-200 flex justify-between " +
-        (bgColor === index ? "bg-gray-200" : "")
+        "rounded-md p-5 m-2 border-gray-400 border-2 hover:bg-gray-200 flex justify-between " +
+        (bgColor === index ? "bg-gray-200" : "bg-white")
       }
     >
       <h1 className="text-xl font-semibold mr-4">{card.title}</h1>

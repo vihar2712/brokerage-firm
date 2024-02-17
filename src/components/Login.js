@@ -9,6 +9,7 @@ import { validateData } from "../utils/validateData";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
+import { BG_IMAGE_URL } from "../utils/constants";
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -95,42 +96,49 @@ const Login = () => {
   };
 
   return (
-    <div className="p-4 m-4 w-3/12 bg-gray-200 rounded-md mx-auto">
-      <h1 className="text-xl font-bold text-center">
-        {isSignUp ? "Sign Up" : "Log In"} Form
-      </h1>
-      <form className="flex flex-col">
-        {isSignUp && (
+    <div>
+      <img
+        src={BG_IMAGE_URL}
+        className="fixed top-0 left-0 w-screen h-screen"
+      />
+      <div className="p-10 m-4 w-11/12 sm:w-5/12 lg:w-3/12 relative top-48 rounded-md mx-auto">
+        <h1 className="text-3xl font-bold text-center">
+          {isSignUp ? "Sign Up" : "Log In"} Form
+        </h1>
+        <form className="flex flex-col">
+          {isSignUp && (
+            <input
+              ref={name}
+              placeholder="Enter your name"
+              className="mt-4 p-2 rounded-sm text-lg"
+              type="text"
+              required
+            />
+          )}
           <input
-            ref={name}
-            placeholder="Enter your name"
-            className="border-2 border-black mt-4 p-2 rounded-sm"
+            ref={email}
             type="text"
+            placeholder="Enter your email"
+            className=" my-4 p-2 rounded-sm"
           />
-        )}
-        <input
-          ref={email}
-          type="text"
-          placeholder="Enter your email"
-          className="border-2 border-black my-4 p-2 rounded-sm"
-        />
-        <input
-          ref={password}
-          type="password"
-          placeholder="Enter your password"
-          className="border-2 border-black p-2 rounded-sm"
-        />
-        <button
-          className="bg-gray-300 my-2 w-fit mx-auto p-2 rounded-md hover:bg-gray-500"
-          onClick={handleSubmit}
-        >
-          {isSignUp ? "Sign Up" : "Log In"}
-        </button>
-        <button className="hover:underline" onClick={handleSignUp}>
-          {isSignUp ? "Already a user? Log In" : "New here? Sign Up"}
-        </button>
-      </form>
-      {errorMessage && <h1 className="text-red-600">{errorMessage}</h1>}
+          <input
+            ref={password}
+            type="password"
+            placeholder="Enter your password"
+            className=" p-2 rounded-sm"
+          />
+          <button
+            className=" my-4 mx-auto w-full p-2 rounded-md bg-white hover:bg-gray-200"
+            onClick={handleSubmit}
+          >
+            {isSignUp ? "Sign Up" : "Log In"}
+          </button>
+          <button className="hover:underline" onClick={handleSignUp}>
+            {isSignUp ? "Already a user? Log In" : "New here? Sign Up"}
+          </button>
+        </form>
+        {errorMessage && <h1 className="text-red-600 text-center">{errorMessage}</h1>}
+      </div>
     </div>
   );
 };

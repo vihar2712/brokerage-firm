@@ -3,3 +3,6 @@ export const LOGO_URL =
 
 export const DUMMY_DATA =
   "https://mocki.io/v1/fe0ace3e-6749-4c50-ada8-7a9eec775456";
+
+export const BG_IMAGE_URL =
+  "https://img.freepik.com/free-photo/dollar-banknotes-frame_1150-6686.jpg";
