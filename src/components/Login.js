@@ -20,13 +20,10 @@ const Login = () => {
   const password = useRef(null);
   const name = useRef(null);
 
-  const handleSignUp = (e) => {
-    e.preventDefault();
+  const handleSignUp = () => {
     setIsSignUp(!isSignUp);
   };
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
+  const handleSubmit = () => {
     if (isSignUp) {
       const validationResult = validateData(
         email.current.value,
@@ -105,12 +102,18 @@ const Login = () => {
         <h1 className="text-3xl font-bold text-center">
           {isSignUp ? "Sign Up" : "Log In"} Form
         </h1>
-        <form className="flex flex-col">
+        <form
+          className="flex flex-col"
+          onSubmit={(e) => {
+            e.preventDefault();
+            handleSubmit();
+          }}
+        >
           {isSignUp && (
             <input
               ref={name}
               placeholder="Enter your name"
-              className="mt-4 p-2 rounded-sm text-lg"
+              className="mt-4 p-2 rounded-sm"
               type="text"
               required
             />
@@ -127,17 +130,16 @@ const Login = () => {
             placeholder="Enter your password"
             className=" p-2 rounded-sm"
           />
-          <button
-            className=" my-4 mx-auto w-full p-2 rounded-md bg-white hover:bg-gray-200"
-            onClick={handleSubmit}
-          >
+          <button className=" my-4 mx-auto w-full p-2 rounded-md bg-white hover:bg-gray-200">
             {isSignUp ? "Sign Up" : "Log In"}
           </button>
           <button className="hover:underline" onClick={handleSignUp}>
             {isSignUp ? "Already a user? Log In" : "New here? Sign Up"}
           </button>
         </form>
-        {errorMessage && <h1 className="text-red-600 text-center">{errorMessage}</h1>}
+        {errorMessage && (
+          <h1 className="text-red-600 text-center">{errorMessage}</h1>
+        )}
       </div>
     </div>
   );
