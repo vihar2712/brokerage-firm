@@ -133,10 +133,10 @@ const Login = () => {
           <button className=" my-4 mx-auto w-full p-2 rounded-md bg-white hover:bg-gray-200">
             {isSignUp ? "Sign Up" : "Log In"}
           </button>
-          <button className="hover:underline" onClick={handleSignUp}>
+        </form>
+          <button className="hover:underline text-center w-full" onClick={handleSignUp}>
             {isSignUp ? "Already a user? Log In" : "New here? Sign Up"}
           </button>
-        </form>
         {errorMessage && (
           <h1 className="text-red-600 text-center">{errorMessage}</h1>
         )}
